@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+
+    <style>
+        tr th,
+        td {
+            border: solid 1px black;
+            padding: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        form {
+            background-color: gray ;
+            padding: 20px;
+            width: 500px;
+            border-radius: 5px;
+            text-align:center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Tabelas -->
+    <table>
+        <caption>Tabela de Medalhas dos Jogos Olímpicos</caption>
+        <colgroup>
+            <col>
+            <col style="width: 200px;">
+            <col style="background-color: gold;">
+        </colgroup>
+        <tr>
+            <th colspan="2">Equipe</th>
+            <th style="background-color: white;">Ouro</th>
+            <th>Prata</th>
+            <th>Bronze</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td><img src="imagensTabela/noruega.jpg" alt="noruega"></td>
+            <td>Noruega</td>
+            <td>16</td>
+            <td>8</td>
+            <td>13</td>
+            <td>37</td>
+        </tr>
+        <tr>
+            <td>bandeira</td>
+            <td>Nome</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>bandeira</td>
+            <td>Nome</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>bandeira</td>
+            <td>Nome</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>bandeira</td>
+            <td>Nome</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+        </tr>
+
+    </table>
+
+    <hr>
+    <!-- Abertura de formulário -->
+    <form method="get">
+        <!-- Label do formulário -->
+        <label for="nome">Nome:* </label>
+        <!-- input -->
+        <input type="text" name="nome" id="nome">
+        <br><br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha">
+
+        <br><br>
+
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade" id="idade" min="0" max="20">
+
+        <br><br>
+
+        <label for="genero">Gênero: </label>
+        <br>
+
+        <label for="genero">Masculino: </label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <br>
+        <label for="genero">Feminino: </label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <br>
+        <label for="genero">Outro(a): </label>
+        <input type="radio" name="genero" id="outro" value="outro">
+        <br>
+
+
+        <label for="linguagem">Selecione suas linguagens de programação</label>
+        <br>
+        <label for="js">JavaScript</label>
+        <input type="checkbox" id="js" name="linguagem" value="javascript">
+        <br>
+        <label for="js">Python</label>
+        <input type="checkbox" id="python" name="linguagem" value="python">
+
+        <br>
+        <label for="texto">Digite seu comentário</label><br>
+        <textarea style="resize: none;" name="texto" id="texto" rows="5" cols="50" maxlength="30"></textarea>
+        <br>
+        <label for="cidade">Cidade Pretendida</label>
+        <select id="cidades" name="cidade">
+            <option value="">-- Selecione uma cidade --</option>
+            <option value="fortaleza">Fortaleza</option>
+            <option value="natal">Natal</option>
+            <option value="joaopessoa">João Pessoa</option>
+        </select>
+        <div>
+            <br>
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

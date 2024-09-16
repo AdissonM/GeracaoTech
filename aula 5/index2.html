@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table></table>
+
+    <hr>
+    <!-- Abertura de Formulario -->
+    <form>
+        <!-- Label de formulario -->
+        <label form="Nome"> Nome:* </label>
+        <!-- Input (entrada) --> 
+        <input type="text" name="nome" id="nome" required>
+        <br> <br>
+
+        <label for="email"> Email:* </label>
+        <input type="email" name="email" id="email" required>
+
+        <br> <br>
+
+        <label for="idade"> Idade:* </label>
+        <input type="idade" name="idade" id="idade" min="0" max="50" required> 
+        <br> <br>
+
+        <label for="senha"> Senha:* </label>        
+        <input type="password" name="name" id="senha" required>
+
+        <br>
+        <label for="Genero"> Genero:* </label>
+        <label for="genero"> Masculino:</label>
+        <input type="radio" name="Genero" id="Masculino" value="masculino">
+
+        <br>
+        <label for="genero"> Feminino: </label>
+        <input type="radio" name="genero" id="Feminino" value="Feminino">
+
+        <br>
+        <label for="genero"> Outros(a): </label>
+        <input type="radio" name="genero" id="Outros" value="outros">
+
+        <br>
+        <label for="linguagem"> Selecione suas linguagens de programação:* </label>
+        <br>
+
+        <label for="js"> JavaScript</label>
+        <Input type="checkbox" id="js" name="linguagem" value="javascript">
+        <br>
+        <label for="js"> Phyton</label>
+        <Input type=" checkbox" id="phyton" name="linguagem" value="phyton">
+
+        <br>
+            <label for="texto"> Digite seu comentario:</label> <br>
+            <textarea style="resize: none;" name="texto" id="texto" rowl="5" cols="50" maxlength="200"></textarea>
+        <br>
+
+        <label for="Cidade" Cidade Pretendida> </label>
+        <select id="cidades" names="cidade">
+            <option value="" >--selecione uma cidade --</option>
+            <option value="Fortaleza"> Fortaleza </option>
+            <option value="Natal"> Natal</option>
+            <option value="Joao Pessoa"> Joao Pessoa</option>
+        </select>
+
+
+
+        <div>
+            <br>
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+</body>
+</html>

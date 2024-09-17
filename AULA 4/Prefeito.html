@@ -4,49 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Receitas</title>
-  </head>
+    <style text="text/css">
+      #conteudo {
+				background: #dcdcdc;
+				height: 600px;
+				display: flex;
+      }  
+      .item {
 
+				background: white;
+				border: 1px solid gray;
+				height: 5000px;
+				width: 200%;
+				padding: 50px;
+				margin: 50 px;
+      }
+    .texto{width: 20%;}
+    header{background-color: coral; text-align: center; color:aliceblue; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a{color: aliceblue; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    div{text-align: center;}
+    h2{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+    .center-text {  text-align: center;
+}
+
+    </style>
+  </head>
   <body>
     <header>
-      <h1>Página de Receitas</h1>
+      
+      <br> <br>
+
+      <h1 class="texto2">Receitas Deliciosas </h1>
+      <p classe="texto2"> Encontre as melhores Receitas para todas as ocasiões</p>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="bolo.html">Bolo</a>
-        <a href="">Macarronada</a>
-        <a href="">Omelete</a>
-        <a href="">Feijoada</a>
-        <a href="">Vatapa</a>
+        <a href="index.html">     Home  -  </a>
+        <a href="bolo.html">    Bolo   -  </a>
+        <a href="Marcarronada.html">     Macarronada  -  </a>
+        <a href="Omelete.html">   Omelete   -  </a>
+        <a href="Feijoada.html">   Feijoada - </a>
+        <a href="Contato.html">   Contato  </a>
+
+      <br> <br>
       </nav>
     </header>
-    <hr />
+   <hr />
     <main>
-      <h2>Esta é uma página para encontrar boas receitas</h2>
-
+      <div class="center-text">
+      <div id="conteudo">
+        <div class="item">
+        
+    
       <article>
-        <h3>Receitas praticas</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />Natus
-          libero vel nemo iure veritatis consequatur, doloremque perspiciatis
-          optio sequi omnis, aliquam ipsam reiciendis? Voluptatum labore sequi
-          eaque, aperiam deleniti non?
+      <h2>Bem-vindo ao seu guia culinário</h2>      
+        <p class="texto" text-align="center">
+          Aqui você pode encontrar receitas práticas,
+          sofisticada e tradicionais, para qualquer ocasião.
+          Desde de jantares romanticos até alomoço em familia,
+          temos os melhores opções para você supreeder na cozinha.
+         
+      
         </p>
       </article>
 
       <hr />
+      <article class="center-text">
 
-      <article>
-        <h3>Receitas mais elaboradas para jantares</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut id
-          minima iure voluptatem. Optio, mollitia quas dolores corrupti eos sint
-          vitae vel possimus provident rerum magni fuga neque error aspernatur.
+        <h2>Bolo de cenoura</h2>
+        <p class="texto" text-align="center-text">
+          Um classico delicioso, perfeito para da tarde. facil de fazer e agrada a todos! 
+          Prepare-se para a delícia mais irresistível que você já provou!
+          Este bolo de cenoura é a combinação perfeita de sabor,
+          maciez e aquele toque de carinho que faz toda a diferença.
+          Imagine um bolo fofinho,
+          com um sabor suave e um toque de especiarias que conquista qualquer paladar.
+          Não é apenas uma receita; é um verdadeiro abraço em forma de bolo!
         </p>
+      </div>
       </article>
     </main>
 
     <hr />
 
-    <footer>
+    <footer text-align="center">
+
       <p>Todos os direitos reservados</p>
     </footer>
   </body>

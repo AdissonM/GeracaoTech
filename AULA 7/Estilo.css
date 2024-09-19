@@ -1,0 +1,101 @@
+*{
+    
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #a2a7af;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #ff5722 ;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f3f4f6;
+    padding: 10px;
+}
+header p{
+    margin: 16px;
+}
+article{background-color: #f3f4f6;
+border-radius: 10px;
+width: 650px;
+padding: 10px;
+margin: auto;
+margin-top: 40px;
+text-align: center;}
+
+article p{ text-align:justify;
+padding: 0 15px;
+}
+
+footer{
+    background-color: black;
+height: 100px;
+color: #f3f4f6;
+text-align: center;}
+
+
+footer p{ 
+    padding-top: 35px;
+}
+
+.conteudo{
+    display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; }
+
+a:hover{
+    background-color: #f3f4f6;
+    color: black;
+    border-radius: 5px;
+}
+
+.PaginaInicial{ 
+    background-color: #ff5722;
+    border-radius: 5px;
+}
+
+input:focus  .artigo1{  
+    background-color: grey;
+
+}
+.artigo1:hover { 
+    width: 400px;
+    transition: 1s;
+  }
+  .artigo2:hover {
+    background-color: repeat;
+    background-position: top right;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0puf0BzCuSdafia_WsUY3evw1tMz3VubFLDR06BHm-eM1IwCyIGg7DicZIn5lNJYK-Y&usqp=CAU');
+    background-size: cover;}
+    
+    .artigo3:hover {
+
+
+    }
+
+    @media(max-width:800px) and (orientation:landscape) or (orientation:portrait) {
+        
+
+    header {
+        background-color: aquamarine;
+            color: black; }
+    
+    }
+        @media(max-width:800px) and (orientation:landscape) {
+        
+
+            header {background: aquamarine;
+                    color: black; }
+                
+            }

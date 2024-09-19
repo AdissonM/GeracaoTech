@@ -1,0 +1,30 @@
+header{ background-image: url("SmartSelect_20240919_110351_Samsung\ Notes.jpg");
+        height: 400px;
+        background-size: cover;
+
+}
+
+.topo{ display: flex;
+ justify-content: space-between;
+
+
+}
+
+
+
+h1 { text-align: center;
+    color: aliceblue;
+}
+
+.Respostas { text-align: center;}
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #a2a7af;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    
+}

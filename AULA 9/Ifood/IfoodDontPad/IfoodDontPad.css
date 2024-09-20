@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topoHeader{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-image: url("imagens/bg.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+.endereco{
+    text-align: center;
+}
+.linkEndereco{
+    text-align: center;
+}
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.paragrafoCard{
+    width: 200px;
+}
+.imagensCard{
+    width: 150px;
+}
+.itens2{
+    display: flex;
+    justify-content: center;
+}
+.paragrafoCard2{
+    width: 300px;
+}

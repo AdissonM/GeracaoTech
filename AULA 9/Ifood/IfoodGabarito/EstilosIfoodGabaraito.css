@@ -1,0 +1,40 @@
+body{ padding: 0%;
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.topoheader{ display: flex;
+            justify-content: space-between ;
+}
+
+header{ 
+   background-image: url("SmartSelect_20240919_110351_Samsung\ Notes.jpg");
+   background-size: cover; 
+   padding: 20px;
+}
+
+header h1{
+   text-align: center;
+   color: white;
+}
+
+.endereco{
+    text-align: center;}
+
+.linkEdereco{
+   text-align: center;
+}
+
+.itens{
+   display: flex;
+   justify-content: center;
+}
+
+.paragrafoCard{
+   width: 200px;
+}
+
+.ImagemCard{
+   width: 150px;
+}
+

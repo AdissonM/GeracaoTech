@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <script>
+
+    // /*saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela a seguir.
+    //  Imprimir uma mensagem informando o saldo médio e o valor de crédito./* 
+    
+    
+    let Salario = parseFloat(prompt("Digite seu salario?"));
+
+
+    let abaixode500 = Salario*0 
+    let acimade500 =  Salario*0.3
+    let abaixode1000 = Salario*0.3
+    let acimade1000 = Salario*0.4
+    let acimade3001 = Salario*0*5
+    
+    if (Salario <= 500) {
+      alert("Nenhum Credito: "+abaixode500);
+    } else if (Salario >= 501) {
+      alert("30% do valor do saldo: "+acimade500);
+    } else if (Salario >= 1000) {
+      alert("40% do valor do saldo: "+acimade1000);
+    }  else if (Salario >= 3000) 
+      alert("50% do valor do saldo: "+acimade3001);
+
+
+
+</script>
+  <body></body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      /*
+      let peso = parseFloat(prompt("Digite seu peso"));
+      let altura = parseFloat(prompt("Digite seu altura"));
+      let imc = peso / (altura * altura);
+      if (imc < 20) {
+        alert("Abaixo do peso");
+      } else if (imc >= 20 && imc < 25) {
+        alert("peso normal");
+      } else if (imc >= 25 && imc < 30) {
+        alert("Sobrepeso");
+      } else if (imc >= 30 && imc < 40) {
+        alert("Obesidade");
+      } else if (imc >= 40) {
+        alert("Obesidade Grave");
+      }
+      
+      
+      let saldo = parseFloat(prompt("Digite seu saldo"));
+      if (saldo <= 500) {
+        alert("Nenhum Crédito");
+      } else if (saldo > 500 && saldo <= 1000) {
+        let credito = saldo * (30 / 100);
+        alert("Seu saldo: " + saldo + "\nCrédito: " + credito);
+      } else if (saldo > 1000 && saldo <= 3000) {
+        let credito = saldo * (40 / 100);
+        alert("Seu saldo: " + saldo + "\nCrédito: " + credito);
+      } else if (saldo > 3000) {
+        let credito = saldo * (50 / 100); //0.5
+        alert("Seu saldo: " + saldo + "\nCrédito: " + credito);
+      }
+      
+      let prato = parseInt(
+        prompt(
+          "Digite seu prato:\n1 - Vegetariano\n2 - Peixe\n3 - Frango\n4 - Carne"
+        )
+      );
+      let caloria = 0;
+
+      if (prato == 1) {
+        caloria = caloria + 180;
+      } else if (prato == 2) {
+        caloria += 230;
+      } else if (prato == 3) {
+        caloria += 250;
+      } else if (prato == 4) {
+        caloria += 350;
+      }
+
+      let sobremesa = parseInt(
+        prompt(
+          "Digite sua sobremesa:\n1 - Abacaxi\n2 - Sorvete\n3 - Mouse\n4 - Mouse chocolate"
+        )
+      );
+      if (sobremesa == 1) {
+        caloria = caloria + 75;
+      } else if (sobremesa == 2) {
+        caloria += 110;
+      } else if (sobremesa == 3) {
+        caloria += 170;
+      } else if (sobremesa == 4) {
+        caloria += 200;
+      }
+
+      let bebida = parseInt(
+        prompt(
+          "Digite sua sobremesa:\n1 - Chá\n2 - Suco de Laranja\n3 - Melão\n4 - Coca Zero"
+        )
+      );
+      if (bebida == 1) {
+        caloria = caloria + 20;
+      } else if (bebida == 2) {
+        caloria += 70;
+      } else if (bebida == 3) {
+        caloria += 100;
+      } else if (bebida == 4) {
+        caloria += 65;
+      }
+      alert("calorias finais: " + caloria);
+      */
+
+      /*
+        for -> Quando você sabe a quantidade de vezes que precisa repetir
+      */
+      let senha = "lobo";
+      let senhaDigitada = prompt("Digite a senha");
+
+      for (var i = 0; i < 3; i++) {
+        if (senha == senhaDigitada) {
+          break;
+        } else {
+          alert("Senha incorreta");
+          senhaDigitada = prompt("Digite a senha");
+        }
+      }
+      console.log(i);
+      if (i == 3 && senha != senhaDigitada) {
+        alert("senha bloqueada");
+      } else {
+        alert("Senha correta");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

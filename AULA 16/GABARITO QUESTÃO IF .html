@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+
+
+
+
+let prato = parseInt(prompt("Digite seu prato:\n 1 - Vegetariano\n 2 - Peixe\n 3 - Frango\n 4 - Carne\n"))
+let caloria = 0
+
+if (prato == 1){
+   caloria += 180;
+} else if (prato == 2){
+    caloria += 230;
+} else if (prato == 3){
+    caloria += 250;
+} else if (prato == 4){
+    caloria += 350;
+}
+
+
+
+let sobremesa = parseInt(prompt("Digite sua sobremesa\n 5 - Abacaxi\n 6 - Sorvete Diet\n 7 - Mouse Diet\n 8 - Mouse chocolate\n "))
+
+
+if (sobremesa == 5){
+   caloria += 75;
+} else if (sobremesa == 6){
+    caloria += 110;
+} else if (sobremesa == 7){
+    caloria += 170;
+} else if (sobremesa == 8){
+    caloria += 200;
+}
+
+let bebida = parseInt(prompt("Digite sua bebida\n 9 - Chá\n 10 - Suco de Laranja\n 11 - Suco de Melão\n 12 - Refrigerante Diet\n "))
+
+
+
+if (bebida == 9){
+   caloria += 20;
+} else if (bebida == 10){
+    caloria += 70;
+} else if (bebida == 11){
+    caloria += 100;
+} else if (bebida == 12){
+    caloria += 65;
+}
+
+alert("A Caloria do seu prato é:" + caloria)
+
+</script>
+  </head>
+  <body></body>
+</html>

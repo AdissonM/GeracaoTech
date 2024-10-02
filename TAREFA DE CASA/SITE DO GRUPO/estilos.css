@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.botao {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container > div {
+    flex: 1 1 300px; /* Flexível, mas não menor que 300px */
+    margin: 20px;
+    text-align: center;
+}
+
+.icons {
+    max-width: 100%;
+    height: auto;
+}
+
+.logotipo {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .botao {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column; /* Muda para coluna em telas pequenas */
+    }
+}
+header {
+    position: relative; /* Permite posicionar elementos dentro do header */
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.botao {
+    position: absolute; /* Permite centralizar o botão no header */
+    left: 50%; /* Move para o centro */
+    top: 50%; /* Move para o centro */
+    transform: translate(-50%, -50%); /* Ajusta a posição */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo do botão */
+    margin-top: 20px; /* Espaçamento acima do formulário */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px; /* Espaçamento entre input e botão */
+}
+
+button {
+    padding: 10px 20px;
+}

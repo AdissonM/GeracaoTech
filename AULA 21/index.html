@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+        let controle = 0
+        let adicionar = 0
+        let remover = 0
+        let tarefas = []
+
+
+        while (controle != "Sair") {
+            controle = prompt("\n1 - Adicionar?\n2 - Remover?\n3 - Sair?")
+
+
+            if (controle == "Adicionar") {
+                addTarefa(tarefas)
+                alert("Você adicionouuuuu rsrsrs")
+
+
+            } else if (controle == "Remover") {
+                removerTarefa(tarefas)
+                alert("Você Removeu agorah!!!!!!!!!!!!!")
+
+            }
+        }
+        alert("KKKKK SOCORRRRRR VOCE SAIU!")
+
+        function addTarefa(tarefas) {
+            let tarefa = prompt("Digite a tarefa (NOW): ")
+            tarefas.Push(tarefa)
+            return tarefas
+
+            function removerTarefa(tarefas) {
+                let tarefa = prompt("Suas tarefas são?" + tarefas + "\n Qual tarefa você quer remover?")
+                let index = tarefas.indexOf(tarefa)
+                tarefas.splice(index, 1)
+                return tarefas
+
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

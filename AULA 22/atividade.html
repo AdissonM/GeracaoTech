@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>     É A HORA DO DUELO - CARTAS GRATIS - APERTE AQUI PRA GANHAR UMA CARTA! </h1>
+    <h3> Desperte o Duelista que há em você e mostre que sua estratégia é mais afiada que qualquer carta </h3>
+    <hr>
+    <img src="bob-duel.gif">
+   
+    <h2>  Escreva sua carta fracote: </h2>
+   
+    Venha saber qual carta você vai ganhar!
+    
+    <div>
+        <input id="nome1" type="text" name="nome" placeholder="Escreva sua carta">
+        <input type="submit" name="" value="Clique aqui!!!!" id="" onclick="capturaNome()">
+        <br>
+        <input id="nome2" type="text" name="nome" placeholder="Escreva sua Carta" >
+        <button type="submit" name="" value="Clique aqui!!!!" id="" onclick="capturaNome()"> Ou clique aqui nob!</button>
+        <br>
+       
+        <img src="yugioh-anime.gif">
+    </div>
+
+    
+</body>
+    <script>
+        function capturaNome(){
+        let input1 = document.getElementById('nome1')
+        let input2 = document.getElementById('nome2')
+        let inputaux = 0
+
+        console.log()
+
+        inputaux = input1.value
+        input1.value = input2.value
+        input2.value = inputaux
+
+        // input1.value = 'Você digitou sua carta hahaha'
+        // inputNome.disabled = 'disabled'
+
+        // let inputEmail = document.getElementById('email')
+        // inputEmail.value = nome
+        }
+    </script>
+    <footer>
+        Todos os direitos reservados!
+    </footer>
+</html>

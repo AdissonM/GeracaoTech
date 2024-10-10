@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h3>Valor dos inputs -> .value</h3>
+    <!-- InnerHTML pode ter acesso aos hackers -->
+    <!-- textContent usam log como String -->
+    <h3>Conteudo do HTML de uma tag -> .innerHTML -> processa o código HTML</h3>
+    <h3>Conteudo textual de uma tag -> .textContent -> não processa codigos</h3>
+
+    <p onclick="verificarParagrafo()" id="paragrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet velit beatae minus similique corrupti culpa eos quaerat ut! Explicabo incidunt quod expedita doloremque accusamus error eveniet doloribus odio, corporis nihil.</p>
+
+    <p onclick="verificarParagrafo()" id="paragrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet velit beatae minus similique corrupti culpa eos quaerat ut! Explicabo incidunt quod expedita doloremque accusamus error eveniet doloribus odio, corporis nihil.</p>
+    
+    <img onclick="trocaImagem()" id="imagem1" src="Cat-party.gif" width="800px" alt="">
+
+</body>
+
+<script>
+    function verificarParagrafo(){
+        let paragrafo1 = document.getElementById('paragrafo1')
+        let paragrafo2 = document.getElementById('paragrafo2')
+
+        console.log(paragrafo1.innerHTML)
+        paragrafo1.innerHTML = '<h1>Aqui foi um paragrafo</h1>'
+
+        console.log(paragrafo2.textContent)
+        paragrafo2.textContent = '<h1>Aqui foi um paragrafo</h1>'
+    }
+    
+    function trocaImagem(){
+        let imagem = document.getElementById("imagem1")
+        imagem.setAttribute("src", "cat-meme-squinting-cat.gif")
+        imagem.setAttribute("width", "200px")
+    }
+    
+
+    
+</script>
+
+</html>

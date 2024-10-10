@@ -1,0 +1,35 @@
+<!--Crie um formulário de login com campos de email e senha.
+    Utilize o evento submit para validar se ambos os campos estão preenchidos.
+    Caso contrário, exiba uma mensagem de erro usando if/else -->
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    
+    </head>
+    <body>
+        <input type="email" id="email">
+        <br>
+        <input type="password" id="senha">
+        <br>
+        <button onclick="validarCampos()">Enviar</button>
+        
+    </body>
+    
+    <script>
+        function validarCampos() {
+            let email = document.getElementById('email')
+            let senha = document.getElementById('senha')
+            if (email.value == '' || senha.value == '') {
+                alert('Erro')
+            }else{
+                alert('campos preenchidos')
+            }
+            
+        }
+    
+    </script>
+    
+    </html>

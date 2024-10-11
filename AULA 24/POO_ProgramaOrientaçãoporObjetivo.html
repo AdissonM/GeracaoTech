@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.babado {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse
+}
+</style>
+
+<forms>
+</div>
+    <body>
+        <div class = babado>
+            <forms>  
+            <br>
+            <h1>ESCOLHA UM CARRO (BUSCA) =>   </h1>
+            <br>
+            <hr>
+            <img src="gretchen-greti.gif" alt="drive">
+            <hr>
+            <label>  Escreva o modelo: </label>
+            <br>
+            <input type="text" id="modelo"  name="carro" placeholder="Digite o carro" >
+            <br>
+            <br>
+            <hr>
+            <label>  Escreva a quantidade de portas: </label>
+            <br>
+            <input type="text" id="portas"  name="portas" placeholder="Digite as portas" >
+            <br>
+            <br>
+            <hr>
+            <label>  Escreva a cor: </label>
+            <br>
+            <input type="text" id="cor"  name="cor" placeholder="Digite a cor" >
+            <br>
+            <br>
+            <hr>
+            <label>  Imagem do Carro: </label>
+            <br>
+            <input type="text" id="imagem"  name="imagem" placeholder="Coloque a imagem" >
+            <br>
+            <button type="button" onclick="cadastrar()"> Cadastrar </button>
+            </forms>
+
+            <hr>
+            <div>  
+              <h1> Buscar o carro </h1>
+              <hr>
+              <img src="glitter-em-busca-de-um-sonho-k12.gif" alt="carro">
+              <br>
+            <input type="text" id="modeloBuscado">
+            <button type="button" onclick=""> Busca </button>
+        </div>
+
+        </body>
+<script>
+    let carros = [
+    {modelo: modelo: 'gol',
+            portas:2,
+            cor: preto,
+            imagem: imagem}]
+    function cadastrar() {
+        let modeloDigitado = document.geteElementById('modelo').value
+        let portasDigitado = document.geteElementById('portas').value
+        let corDigitado = document.geteElementById('cor').value
+        let imagemDigitado = document.geteElementById('iamgem').value
+
+        let carro = {
+            modelo:modeloDigitado,
+            portas:portasDigitado,
+            cor:corDigitado,
+            imagem:imagemDigitado
+        }
+
+        carros.push(carro)
+         console.log(carros)
+    }
+  
+    function buscar(){
+        let busca = document.getElementById('modeloBuscado').value
+        console.log(parseInt(busca))
+    }
+
+</script>
+</html>

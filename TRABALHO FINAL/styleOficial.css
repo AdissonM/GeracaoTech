@@ -1,0 +1,78 @@
+.secao-grupo-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+.grupo-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1px;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.cards {
+    display: flex;
+    background-color: #D8E3F2;
+    flex: auto;
+    margin: 1px;
+    
+  
+
+}
+
+
+.card-descricao{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin: 1px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.card-imagem1 {
+    Height: 236px;
+    Top: 1106.19px;
+    Left: 239px
+}
+
+.card-imagem2 {
+    Height: 196.73px
+    Top 1005px 
+    Left 954.35px
+}
+
+.card-imagem3 {
+    margin: 1px;
+    Height:262px
+    Top 956px
+    Left 1244px
+
+}
+
+.botao{
+    border: #D8E3F2;
+    Width: 153px;
+    Height: 48px;
+    Radius: 8px;
+}
+ .compra{
+    Font: Inter;
+    Weight: 700px;
+    Size: 16px;
+    height:  24px;
+    Align: Center;
+    color:#c205b5;
+
+ }
+
+ .descontos{
+
+    
+ }

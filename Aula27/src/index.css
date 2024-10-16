@@ -1,0 +1,29 @@
+/* CSS - Global */
+body {
+  font-family: sans-serif;
+  background-color: #aff4b7;
+  margin-bottom: 500px;
+}
+
+h1{
+  color: blue;
+}
+
+.paragrafo1{
+  background-color: black;
+  color: white;
+}
+
+p{
+  color: blue;
+}
+
+.fonte{
+  font-family: Verdana, Arial;
+  border-radius: 10px;
+}
+
+.teste{
+  margin: left;
+  padding: 0%;
+}

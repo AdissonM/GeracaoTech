@@ -16,43 +16,48 @@
 .cards {
     display: flex;
     background-color: #D8E3F2;
-    flex: auto;
+    /* flex: auto; */
     margin: 1px;
-    
-  
-
+    max-width: 600px;
 }
 
 
 .card-descricao{
     display: flex;
-    flex: auto;
+    /* flex: auto; */
     flex-direction: column;
     margin: 1px;
     padding: 8px;
     justify-content: center;
     align-items: center;
-    text-align: left;
+ 
     
 }
 
 .card-imagem1 {
-    Height: 236px;
-    Top: 1106.19px;
-    Left: 239px
+    overflow: hidden;
+    width: 200px;
+    /* transform: rotate(-30deg); */
+    /* rotate: 30deg; */
+}
+
+#i{
+    
+    scale: 1.1;
+    float: left;
 }
 
 .card-imagem2 {
-    Height: 196.73px
-    Top 1005px 
-    Left 954.35px
+    Height: 196.73px;
+    Top: 1005px; 
+    Left: 954.35px;
 }
 
 .card-imagem3 {
     margin: 1px;
-    Height:262px
-    Top 956px
-    Left 1244px
+    Height:262px;
+    Top: 956px;
+    Left: 1244px;
 
 }
 

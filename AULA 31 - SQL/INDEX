@@ -1,0 +1,18 @@
+================================ 22/10/2024==============================================
+CTRL + ENTER = ATUALIZA
+
+
+
+
+CREATE DATABASE digital;
+
+CREATE TABLE digital.students (
+id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(150) NOT NULL,
+email VARCHAR(50) NOT NULL,
+date_register DATE NULL
+);
+
+INSERT INTO (COLUNAS)
+VALUES
+(VALORES)

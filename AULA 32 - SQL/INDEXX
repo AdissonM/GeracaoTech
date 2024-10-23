@@ -1,0 +1,16 @@
+
+CREATE DATABASE digital;
+
+CREATE TABLE students (
+id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(150) NOT NULL,
+email VARCHAR(50) NOT NULL,
+date_register DATE NOT NULL
+);
+
+INSERT INTO students (name, email, date_register)
+VALUES 
+('Joaozin', 'joaozin@exemplo.com', '2001-10-25'),
+('Maria', 'maria@exemplo.com', '2002-05-15');
+
+SELECT * FROM students

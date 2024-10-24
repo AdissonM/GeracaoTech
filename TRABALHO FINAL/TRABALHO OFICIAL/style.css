@@ -1,5 +1,6 @@
 #box{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     max-width: 1255px;
     margin: auto;

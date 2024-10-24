@@ -2,7 +2,8 @@
     display: flex;
     gap: 20px;
     max-width: 1255px;
-    margin: auto;
+    margin: 10px;
+    flex-wrap: wrap-reverse;
 }
 #b{
     background-color: #D8E3F2;

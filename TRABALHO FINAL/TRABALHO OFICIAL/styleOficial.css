@@ -5,8 +5,8 @@
     margin: auto;
 }
 #b{
-    background-color:green;
-    color: white;
+    background-color: #D8E3F2;
+    color: black;
     display: inline;
     width: 405px;
     height: 251px;
@@ -15,16 +15,17 @@
     border-radius: 5px;
 }
 #c{
-    background-color: blue;
-    color: white;
+    background-color: #D8E3F2;
+    color: black;
     display: inline;
     width: 405px;
     height: 251px;
     overflow: hidden;
+
 }
 #d{
-    background-color: purple;
-    color: white;
+    background-color: #D8E3F2;
+    color: black;
     display: inline;
     width: 405px;
     height: 251px;
@@ -47,10 +48,11 @@
 #button{
     padding: 13px 40px;
     border-radius: 7px;
-    color: red;
+    color: #C92071;
+    ;
 }
 #tag{
-    background-color: rgb(252, 235, 4);
+    background-color: yellow;
     padding: 5px 10px;
     border-radius: 250px;
 }

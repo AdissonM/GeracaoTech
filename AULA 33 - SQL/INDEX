@@ -1,5 +1,3 @@
-==================== 23/10/2024 - SQL ===========================================
-
 CREATE DATABASE itau;
 
 CREATE TABLE clients (
@@ -38,8 +36,76 @@ SELECT (id*5) AS id, name FROM clients;
 SELECT id, name, email, birth_date
 FROM clients
 WHERE  id > 5 /* DIFERENTE <> */
-AND name = 'Andresa Urach';
+AND name = 'Andresa Urach'
+;
 
-SELECT id, name, birth_date
+SELECT id, name , email, birth_date
+from clients 
+WHERE name LIKE '%Andresa%' 
+-- Usa-se LIKE %...% para procurar informações no banco --
+;
+
+SELECT id, name, email, birth_date, register
 FROM clients
-WHERE birth_date > "2003-01-01";
+WHERE cpf IN ('12312312303') 
+-- Usa-se IN para casos especificos -- 
+;
+
+-- DROP - ESTRUTURA APAGAR O TABELA , VIEWS, COLUNAS, BANCO --
+-- DELETE - DELETAR OS DADOS, AS LINHAS  - 
+
+-- INSERT É INSERIR DADOS , LINHAS DO BANCO--
+-- CREATE CRIAR TABELAS , DADOS --
+-- ALTER ALTERAR ESTRUTURAS --
+-- UPDATE É ATUALIZAR OS DADOS , ALTERAÇÃO , EDITAR --
+
+
+SELECT id, name, email, birth_date, register
+FROM clients
+WHERE id BETWEEN 2 AND 5
+ORDER BY NAME
+-- ORDER BY birth_date DESC; -- "Usar por ordem decrescente" --
+-- Between mostrar as informações entre duas condições --
+-- ORDER é visualizar o banco em ordem alfabeita
+;
+
+SELECT * FROM clients;	
+-- ALTER
+
+ALTER TABLE clients ADD unidade VARCHAR(20) AFTER name; 
+
+-- ALTER: O COMANDO DO ALTER trabalha com estrutura , coluna, nome das estruturas --
+-- UPDATE: O COMANDO DO UPDATE trabalha com dados, com as informações dentro do controle --
+
+UPDATE clients
+SET unidade = 'Aldeota'
+WHERE id > 3 
+;
+
+SELECT * FROM clients
+
+WHERE birth_date > '1999-01-01';
+
+SELECT * FROM clients
+WHERE register = '123009';
+
+UPDATE clients
+SET name = 'Yani de Simone Mulher Filé';
+
+SELECT * FROM clients;
+
+UPDATE clients
+SET unidade = 'Sul' -- ESCOLHER -> ADICIONAR --
+WHERE id < 4;
+
+SELECT * FROM clients
+WHERE register = '123007';
+
+DELETE FROM clients
+WHERE id = '7';
+
+SELECT * FROM clients;
+
+WHERE unidade = 'Sul';
+DELETE FROM clients
+WHERE unidade = 'Sul';

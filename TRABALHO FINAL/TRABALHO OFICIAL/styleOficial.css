@@ -1,11 +1,12 @@
-#box{
+#box {
     display: flex;
     gap: 20px;
     max-width: 1255px;
     margin: 10px;
     flex-wrap: wrap-reverse;
 }
-#b{
+
+#b {
     background-color: #D8E3F2;
     color: black;
     display: inline;
@@ -15,7 +16,8 @@
     position: relative;
     border-radius: 5px;
 }
-#c{
+
+#c {
     background-color: #D8E3F2;
     color: black;
     display: inline;
@@ -24,15 +26,17 @@
     overflow: hidden;
 
 }
-#d{
+
+#d {
     background-color: #D8E3F2;
     color: black;
     display: inline;
     width: 405px;
     height: 251px;
-    overflow: hidden;  
+    overflow: hidden;
 }
-#img{
+
+#img {
     width: 355.68px;
     scale: 1.1;
     position: absolute;
@@ -41,22 +45,47 @@
     transform: rotate(-20deg);
     z-index: 1;
 }
-#text{
-    padding: 30px 25px;;
+
+#img2 {
+    width: 263.21px;
+    height: 196.73px;
+    top: 1005px;
+    left: 954.35px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+#img3 {
+    width: 222px;
+    height: 262px;
+    top: 956px;
+    left: 1244px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+#text {
+    padding: 30px 25px;
+    ;
     position: relative;
     z-index: 2;
 }
-#button{
+
+#button {
     padding: 13px 40px;
     border-radius: 7px;
     color: #C92071;
     ;
 }
-#tag{
+
+#tag {
     background-color: yellow;
     padding: 5px 10px;
     border-radius: 250px;
 }
-h2{
+
+h2 {
     font-size: 32px;
 }

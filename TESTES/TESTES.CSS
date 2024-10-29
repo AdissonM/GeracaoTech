@@ -1,0 +1,24 @@
+#imagens {
+    width: 104px;
+    height: 138px;
+    top: 1380px;
+    left: 364px;
+    gap: 0px;
+    border-radius: 150px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+#cont {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 712px;
+    height: 138px;
+    top: 1380px;
+    left: 364px;
+    gap: 0px;
+    border-radius: 150px 0px 0px 0px;
+    opacity: 0px;
+
+}

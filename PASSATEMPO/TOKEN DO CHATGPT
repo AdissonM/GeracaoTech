@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Token Visual</title>
+</head>
+<body>
+    <div class="token">
+        <h2>Token de Acesso</h2>
+        <p>ID: 123456789</p>
+        <p>Expira em: 2024-12-31</p>
+        <button>Copiar Token</button>
+    </div>
+</body>
+</html>
